@@ -1,4 +1,4 @@
-export class Pessoa
+export default class Pessoa
 {
     nome;
     documento;
@@ -7,13 +7,13 @@ export class Pessoa
         this.nome = nome;
         this.documento = documento;
     }
-    exibirInformações(){
+    exibirInformacoes(){
         return `Nome: ${this.nome}, Documento: ${this.documento}`;
     }
 
 }
 
 let pessoa1 = new Pessoa("César", 848);
-console.log(pessoa1.exibirInformações());
+console.log(pessoa1.exibirInformacoes());
 
 
