@@ -1,5 +1,4 @@
 export class Pessoa
-
 {
     nome;
     documento;
